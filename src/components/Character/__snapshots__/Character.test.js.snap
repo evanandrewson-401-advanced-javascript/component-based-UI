@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<Fragment>
+  <img
+    src={
+      Object {
+        "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+        "name": "Rick Sanchez",
+        "species": "Human",
+      }
+    }
+  />
+  <h1>
+    <Component />
+  </h1>
+  <p />
+</Fragment>
+`;
