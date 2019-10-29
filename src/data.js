@@ -49,4 +49,6 @@ const characters = [
   species: "Human",
   image: "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
   }
-]
+];
+
+export default characters;

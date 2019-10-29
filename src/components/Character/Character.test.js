@@ -11,9 +11,9 @@ describe('Character component', () => {
       };
     const wrapper = shallow(
     <Character
-      name = {character.name}
-      species = {character.species}
-      image = {character.image}
+      name={character.name}
+      species={character.species}
+      image={character.image}
        />);
     expect(wrapper).toMatchSnapshot();
   });

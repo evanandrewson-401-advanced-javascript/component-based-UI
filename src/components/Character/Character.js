@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Character = (image, name, species) => (
+const Character = ({ image, name, species }) => (
   <>
     <img src={image} />
     <h1>{name}</h1>
