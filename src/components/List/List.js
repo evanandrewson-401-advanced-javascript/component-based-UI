@@ -1,21 +1,19 @@
 import React from 'react';
 import Character from '../Character/Character';
 import PropTypes from 'prop-types';
+import styles from './List.css';
 
-const List = ({ itemsArray }) => (
-  <ul>
+const List = ({ itemsArray, Component }) => (
+  <ul className={styles.List}>
     {itemsArray.map(item => 
       (<li key={item.name}>
-        <Character 
-          name={item.name} 
-          image={item.image} 
-          species={item.species}
-        />
+        <Component {...item}/>
       </li>))}
   </ul>);
 
 List.propTypes = {
-  itemsArray: PropTypes.array.isRequired
+  itemsArray: PropTypes.array.isRequired,
+  Component: PropTypes.func.isRequired
 }
 
 
