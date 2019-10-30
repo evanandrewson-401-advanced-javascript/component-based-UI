@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #202329;
+    margin: 0;
+    
     li {
         list-style: none;
     }
