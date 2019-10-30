@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders List 1`] = `
+<ul
+  className="List"
+>
+  <li
+    key="Rick Sanchez"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      name="Rick Sanchez"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Morty Smith"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      name="Morty Smith"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Summer Smith"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+      name="Summer Smith"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Beth Smith"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+      name="Beth Smith"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Jerry Smith"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+      name="Jerry Smith"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Abadango Cluster Princess"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+      name="Abadango Cluster Princess"
+      species="Alien"
+    />
+  </li>
+  <li
+    key="Abradolf Lincler"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+      name="Abradolf Lincler"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Adjudicator Rick"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+      name="Adjudicator Rick"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Agency Director"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+      name="Agency Director"
+      species="Human"
+    />
+  </li>
+  <li
+    key="Alan Rails"
+  >
+    <Character
+      image="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+      name="Alan Rails"
+      species="Human"
+    />
+  </li>
+</ul>
+`;
